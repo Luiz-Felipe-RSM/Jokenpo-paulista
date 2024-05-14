@@ -1,0 +1,154 @@
+/* general */
+
+.body {
+    background-color: #ff5a00;
+    font-family: 'Common Pixel', sans-serif;
+    color: aliceblue;
+}
+
+.main {
+    text-align: center;
+    font-size: 75pt;
+}
+
+#paulista {
+    width: 1em;
+    height: 1em;
+}
+
+.box {
+    background-color: #000084;
+    margin-top: -1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 17.5em;
+}
+
+
+/* center */
+
+#choiceP {
+    position: fixed;
+    right: 32em;
+    top: 21em;
+    border-right: 10px solid #e5bd5b;
+}
+
+#choiceB {
+    position: fixed;
+    left: 28em;
+    top: 21em;
+    border-left: 10px solid #e5bd5b;
+}
+
+#x {
+    position: fixed;
+    top: 22em;
+    left: 43em;
+}
+
+#ScoreB {
+    text-align: center;
+    position: fixed;
+    font-size: 4.5em;
+    top: 8em;
+    left: 7.2em;
+}
+
+#ScoreP {
+    text-align: center;
+    position: fixed;
+    font-size: 4.5em;
+    top: 8em;
+    right: 7.8em;
+}
+
+#Won {
+    text-align: center;
+    position: fixed;
+    top: 4em;
+    left: 15em;
+}
+
+#rules {
+    font-size: 12pt;
+    position: fixed;
+    left: 6em;
+    top: 10em;
+}
+
+#rule-img {
+    width: 2em;
+    height: 2em;
+}
+
+
+/* button possition */
+
+.button {
+    position: absolute
+}
+
+#bnt1 {
+    position: fixed;
+    right: 16em;
+    top: 9em;
+    border-radius: 20%;
+    background-color: #ff5a00;
+}
+
+#bnt2 {
+    position: fixed;
+    right: 16em;
+    top: 21em;
+    border-radius: 20%;
+    background-color: #ff5a00;
+}
+
+#bnt3 {
+    position: fixed;
+    right: 16em;
+    top: 33em;
+    border-radius: 20%;
+    background-color: #ff5a00;
+}
+
+#bnt4 {
+    position: fixed;
+    right: 7em;
+    top: 25em;
+    background-color: #ff5a00;
+}
+
+
+/* radio */
+
+#r1 {
+    position: fixed;
+    right: 16em;
+    top: 9em;
+    width: 11em;
+    height: 10em;
+    opacity: 0%;
+    cursor: pointer;
+}
+
+#r2 {
+    position: fixed;
+    right: 16em;
+    top: 21em;
+    width: 11em;
+    height: 10em;
+    opacity: 0%;
+    cursor: pointer;
+}
+
+#r3 {
+    position: fixed;
+    right: 16em;
+    top: 33em;
+    width: 11em;
+    height: 10em;
+    opacity: 0%;
+    cursor: pointer;
+}
